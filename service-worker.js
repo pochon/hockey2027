@@ -6,7 +6,7 @@
    ============================================================ */
 'use strict';
 
-const CACHE_NAME = 'hockey2027-v15';
+const CACHE_NAME = 'hockey2027-v16';
 
 const RECURSOS = [
   './',
