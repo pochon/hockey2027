@@ -936,8 +936,13 @@ button:focus-visible {
 
   .autor-foto {
     width: 100%;
-    max-width: 320px;
+    max-width: 260px;
     margin-inline: auto;
+  }
+
+  .autor-foto img {
+    height: auto;
+    object-fit: contain;
   }
 
   .trayectoria-lista::before {
