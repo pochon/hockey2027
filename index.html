@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#10243a" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#111c28" media="(prefers-color-scheme: dark)" />
+  <meta name="description" content="Proyecto 2027 de desarrollo y promoción del Hockey sobre Patines en Santa Fe: escuelas de iniciación, encuentros regionales y propuesta técnica del DT Cristian Pochón." />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/img/logo-192.png" />
+  <link rel="apple-touch-icon" href="assets/img/logo-192.png" />
+  <link rel="stylesheet" href="assets/vendor/photoswipe/photoswipe.css" />
+  <link rel="stylesheet" href="assets/vendor/leaflet/leaflet.css" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <title>Hockey Santa Fe 2027 · Proyecto de Hockey sobre Patines</title>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+
+  <header class="site-header" id="inicio">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Hockey Santa Fe 2027 — Inicio">
+        <img class="brand-logo" src="img/Nuevo+Logo+19.webp" alt="" />
+        <span class="brand-text">Hockey Santa Fe <strong>2027</strong></span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav" aria-label="Abrir menú de navegación">
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+      </button>
+
+      <nav class="site-nav" id="siteNav" aria-label="Navegación principal">
+        <ul class="nav-list">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#proyecto">Proyecto</a></li>
+          <li><a href="#capitulo-1">Promoción</a></li>
+          <li><a href="#capitulo-2">Escuelas</a></li>
+          <li><a href="#capitulo-3">Encuentros</a></li>
+          <li><a href="#capitulo-4">Propuesta</a></li>
+          <li><a href="#autor">Autor</a></li>
+          <li><a href="#galeria">Galería</a></li>
+          <li><a class="nav-cta" href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="presentation-cover" aria-label="Portada de la presentación">
+      <img src="img/banner.jpg" alt="Confederación Argentina de Patinaje sobre una pista de hockey" width="2000" height="500" fetchpriority="high" />
+    </section>
+
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-inner">
+        <p class="hero-eyebrow">Confederación Argentina de Patín · Comité Nacional Técnico</p>
+        <h1 id="hero-title">Hockey sobre Patines <span class="hero-highlight">Proyecto 2027</span></h1>
+        <p class="hero-sub">Desarrollo y promoción del hockey sobre patines en la ciudad de Santa Fe: escuelas de iniciación, encuentros regionales y una propuesta estratégica para 2027.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#capitulo-1">Explorar capítulos</a>
+          <a class="btn btn-ghost" href="#galeria">Ver galería</a>
+        </div>
+        <p class="hero-meta">Dirección técnica: <strong>Cristian Pochón</strong> · DT Hockey sobre Patines</p>
+      </div>
+    </section>
+
+    <section id="proyecto" class="section" aria-labelledby="proyecto-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-kicker">Prólogo</p>
+          <h2 id="proyecto-title">Un proyecto que nace de la calle</h2>
+          <p class="section-lead">El documento consolida la trayectoria, las experiencias fundacionales y los lineamientos de trabajo para la expansión del Hockey sobre Patines en Santa Fe y su región de influencia.</p>
+        </header>
+        <div class="prose reveal">
+          <p>Desde las actividades de promoción en la Costanera de Santa Fe y los primeros pasos institucionales en el Club Liverpool, hasta la consolidación de la Escuela de Iniciación en el Club Unión y Progreso, esta propuesta articula el desarrollo técnico de base con la visión estratégica del Proyecto 2027.</p>
+          <blockquote class="quote">
+            <p>«Fomentar la práctica del Hockey sobre Patines desde las etapas tempranas de iniciación, integrando actividades lúdicas, dominio técnico de rodamiento y encuentros interclubes que fortalezcan los lazos comunitarios y garanticen la continuidad deportiva.»</p>
+            <footer>— Visión estratégica y pedagógica del proyecto</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section id="capitulo-1" class="section chapter" aria-labelledby="cap1-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-kicker">Capítulo 1</p>
+          <h2 id="cap1-title">Antecedentes y promoción en espacios públicos</h2>
+          <p class="section-lead">El punto de partida: acercar la disciplina a niños, jóvenes y familias en espacios abiertos y dar los primeros pasos institucionales en la ciudad.</p>
+        </header>
+        <div class="chapter-photos reveal" aria-label="Registro visual de las primeras sedes">
+          <figure>
+            <img src="assets/img/eventos/costanera-01.jpg" alt="Niñas y niños participan de una actividad de hockey sobre patines en la Costanera de Santa Fe" width="932" height="516" loading="lazy" decoding="async" />
+            <figcaption>Promoción abierta en la Costanera de Santa Fe</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/img/eventos/liverpool-01.jpg" alt="Grupo de niñas, niños y entrenadores en la pista del Club Liverpool" width="715" height="486" loading="lazy" decoding="async" />
+            <figcaption>Primer núcleo de iniciación en el Club Liverpool</figcaption>
+          </figure>
+        </div>
+        <div class="cards">
+          <article class="card reveal">
+            <span class="card-index" aria-hidden="true">01</span>
+            <h3>Costanera de Santa Fe</h3>
+            <p>Jornadas de exhibición y pruebas abiertas en el playón deportivo, con equipamiento básico: patines tradicionales de 4 ruedas, sticks y protecciones. Un canal directo de captación espontánea que demostró el alto interés de la comunidad.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card-index" aria-hidden="true">02</span>
+            <h3>Club Liverpool</h3>
+            <p>Primera sede institucional fija. Allí se conformó el primer núcleo estable de alumnos infantiles, con foco en la postura de seguridad, el frenado y el manejo inicial del stick con bocha.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="capitulo-2" class="section chapter" aria-labelledby="cap2-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-kicker">Capítulo 2</p>
+          <h2 id="cap2-title">Escuelas de iniciación en clubes locales</h2>
+          <p class="section-lead">El hito principal del proceso formativo: la Escuela de Iniciación Deportiva en el Club Unión y Progreso de Santa Fe.</p>
+        </header>
+        <div class="chapter-photos chapter-photos--single reveal" aria-label="Registro visual de la escuela de iniciación">
+          <figure>
+            <img src="assets/img/eventos/union-progreso-01.jpg" alt="Niñas, niños y entrenadores de la Escuela de Iniciación en Unión y Progreso" width="761" height="563" loading="lazy" decoding="async" />
+            <figcaption>Escuela de Iniciación Deportiva · Club Unión y Progreso</figcaption>
+          </figure>
+        </div>
+        <div class="cards">
+          <article class="card reveal">
+            <span class="card-index" aria-hidden="true">01</span>
+            <h3>Enseñanza gradual del patín</h3>
+            <p>Desarrollo de habilidades motoras, giros, desplazamientos laterales y postura básica sobre patines tradicionales.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card-index" aria-hidden="true">02</span>
+            <h3>Introducción al stick y la bocha</h3>
+            <p>Ejercicios coordinativos de conducción, control de bocha en espacio reducido y pase.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card-index" aria-hidden="true">03</span>
+            <h3>Valores y trabajo en equipo</h3>
+            <p>Integración de niños de distintas edades, respeto por el rival y fomento de la disciplina deportiva.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card-index" aria-hidden="true">04</span>
+            <h3>Participación de la familia</h3>
+            <p>Acompañamiento activo de padres en la organización de jornadas y en el mantenimiento de los materiales.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="capitulo-3" class="section chapter" aria-labelledby="cap3-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-kicker">Capítulo 3</p>
+          <h2 id="cap3-title">Encuentros de iniciación e intercambios regionales</h2>
+          <p class="section-lead">Encuentros que amplían la red: rodaje deportivo, camaradería y un calendario anual de intercambios regionales.</p>
+        </header>
+        <div class="chapter-photos reveal" aria-label="Registro visual de los encuentros regionales">
+          <figure>
+            <img src="assets/img/eventos/encuentro-regional-01.jpg" alt="Encuentro de hockey sobre patines entre escuelas de la región" width="1001" height="563" loading="lazy" decoding="async" />
+            <figcaption>Encuentro de escuelas de la región</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/img/eventos/rosario-02.jpg" alt="Jugadoras participan de una práctica de hockey sobre patines en Rosario" width="1081" height="608" loading="lazy" decoding="async" />
+            <figcaption>Intercambio deportivo en Rosario</figcaption>
+          </figure>
+        </div>
+        <div class="cards">
+          <article class="card reveal">
+            <span class="card-index" aria-hidden="true">01</span>
+            <h3>1º Encuentro de Escuelas — Paraná</h3>
+            <p>Niños de ambas orillas del Río Paraná compartieron partidos integrativos, circuitos de destreza y actividades de camaradería. La jornada reafirmó el eje Santa Fe–Paraná como motor de desarrollo conjunto.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card-index" aria-hidden="true">02</span>
+            <h3>Rosario – Santa Fe – San Nicolás</h3>
+            <p>Triangulación regional que permitió medir el crecimiento técnico de las escuelas, fomentar el intercambio entre entrenadores y consolidar el calendario anual de encuentros.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="sedes" class="section sedes" aria-labelledby="sedes-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-kicker">Territorio</p>
+          <h2 id="sedes-title">Sedes y encuentros</h2>
+          <p class="section-lead">Del playón de la Costanera al circuito regional: las sedes donde el proyecto ya es una realidad y los nodos de la triangulación Santa Fe – Paraná – Rosario – San Nicolás.</p>
+        </header>
+        <div class="mapa-wrap reveal">
+          <div id="mapaSedes" class="mapa" role="region" aria-label="Mapa de sedes y encuentros del proyecto"></div>
+          <p class="mapa-nota">Tocá una sede de la lista para ubicarla en el mapa. Las coordenadas son aproximadas y sirven de referencia territorial.</p>
+        </div>
+        <ul class="sedes-lista" id="sedesLista" aria-label="Listado de sedes"></ul>
+        <noscript>
+          <p class="gallery-error">El mapa necesita JavaScript. Las sedes están descriptas en <code>data/contenido.json</code>.</p>
+        </noscript>
+      </div>
+    </section>
+
+    <section id="capitulo-4" class="section chapter" aria-labelledby="cap4-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-kicker">Capítulo 4</p>
+          <h2 id="cap4-title">Propuesta técnica y programa de trabajo 2027</h2>
+          <p class="section-lead">Un programa integral orientado a institucionalizar y escalar la práctica del Hockey sobre Patines sobre cuatro pilares operativos.</p>
+        </header>
+        <div class="cards">
+          <article class="card reveal">
+            <span class="card-index" aria-hidden="true">01</span>
+            <h3>Estructuración metodológica</h3>
+            <p>Planificación de contenidos por edades (Iniciación, Pre-Hockey y Formativo) con objetivos coordinativos claros.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card-index" aria-hidden="true">02</span>
+            <h3>Capacitación de cuadros</h3>
+            <p>Talleres para instructores, monitores y colaboradores en la preparación física y técnica del patinador.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card-index" aria-hidden="true">03</span>
+            <h3>Infraestructura y material</h3>
+            <p>Estandarización de pistas locales (superficie alisada y zócalos de contención) y fondo rotativo de equipos.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card-index" aria-hidden="true">04</span>
+            <h3>Liga regional</h3>
+            <p>Creación del circuito regular interclubes articulado con la provincia y la región centro.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="sintesis" class="section sintesis" aria-labelledby="sintesis-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-kicker">Síntesis y conclusiones</p>
+          <h2 id="sintesis-title">Una demanda latente, un programa sostenible</h2>
+        </header>
+        <div class="prose reveal">
+          <p>El recorrido documentado —desde la promoción en la Costanera de Santa Fe hasta los intercambios regionales con Paraná, Rosario y San Nicolás— confirma que el Hockey sobre Patines posee una demanda latente en la población infantil y juvenil.</p>
+          <p>La implementación articulada de la Propuesta 2027 del DT Cristian Pochón ofrece el marco técnico e institucional necesario para transformar las escuelas de iniciación en un programa sostenible de desarrollo deportivo.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="autor" class="section autor" aria-labelledby="autor-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-kicker">Mi historia</p>
+          <h2 id="autor-title">Acerca de mí: Cristian Pochón</h2>
+          <p class="section-lead">Más de cuatro décadas de pasión, formación y liderazgo en el Hockey sobre Patines.</p>
+        </header>
+        <div class="autor-perfil reveal">
+          <figure class="autor-foto">
+            <img src="img/perfil-sinfondo.jpeg" alt="Retrato de Cristian Pochón" width="731" height="1024" loading="lazy" decoding="async" />
+          </figure>
+          <div class="autor-biografia">
+            <p class="autor-rol">Jugador · Formador · Director técnico · Gestor institucional</p>
+            <p>Soy Cristian Pochón. Mi vínculo con el hockey sobre patines comenzó en mi infancia y se transformó en una vocación de vida. Llevo más de 45 años ininterrumpidos dentro de las pistas, primero como jugador y luego dedicado a la formación deportiva, la dirección técnica y la gestión institucional.</p>
+          </div>
+        </div>
+
+        <div class="trayectoria reveal">
+          <h3 id="trayectoria-title">Mi trayectoria cronológica</h3>
+          <ol class="trayectoria-lista" aria-labelledby="trayectoria-title">
+            <li class="trayectoria-item">
+              <p class="trayectoria-fecha">1979</p>
+              <h4>Los inicios en el deporte</h4>
+              <p>Comencé desde muy chico en el hockey sobre patines en el Colegio Don Bosco, institución donde nació mi pasión por esta disciplina.</p>
+            </li>
+            <li class="trayectoria-item">
+              <p class="trayectoria-fecha">1989–1990</p>
+              <h4>Experiencia en San Juan</h4>
+              <p>A fines de 1989 me trasladé a San Juan —cuna del hockey sobre patines argentino— para competir y enriquecer mi formación deportiva. Regresé en 1990 para continuar mi carrera local.</p>
+            </li>
+            <li class="trayectoria-item">
+              <p class="trayectoria-fecha">1992–1993</p>
+              <h4>Primeros pasos en la enseñanza</h4>
+              <p>Mientras continuaba mi actividad como jugador, me sumé a la Escuela de Formación de Hockey del Paraná Rowing Club y descubrí mi vocación por la docencia deportiva.</p>
+            </li>
+            <li class="trayectoria-item">
+              <p class="trayectoria-fecha">2005–2008</p>
+              <h4>Dirección técnica en el Club Talleres</h4>
+              <p>Me desempeñé durante tres años como Director Técnico, a cargo de la preparación y competencia de las categorías Infantil, Cadete, Juvenil y Primera División.</p>
+            </li>
+            <li class="trayectoria-item">
+              <p class="trayectoria-fecha">2007</p>
+              <h4>Cierre de etapa como jugador</h4>
+              <p>Tras casi tres décadas de competencia activa, finalicé mi carrera como jugador en el Paraná Rowing Club.</p>
+            </li>
+            <li class="trayectoria-item">
+              <p class="trayectoria-fecha">2018–2019</p>
+              <h4>Impulso al hockey en Santa Fe</h4>
+              <p>Lideré un proyecto de desarrollo y expansión en la ciudad, iniciado en el Club Liverpool y continuado posteriormente en el Club Progreso para fomentar la disciplina en la región.</p>
+            </li>
+            <li class="trayectoria-item">
+              <p class="trayectoria-fecha">Etapa post-pandemia</p>
+              <h4>Impulso a la rama femenina</h4>
+              <p>Retomé el trabajo formativo con las categorías femeninas Mini, Infantil y Cadete como Director Técnico en el Paraná Rowing Club, institución donde también me desempeñé como Coordinador Deportivo.</p>
+            </li>
+            <li class="trayectoria-item">
+              <p class="trayectoria-fecha">2024–2026</p>
+              <h4>Consolidación y escuelas de iniciación</h4>
+              <p>A fines de 2024 asumí la conducción técnica del plantel de Cadetes del Paraná Rowing Club. Entre 2025 y agosto de 2026 estuve a cargo de su Escuela de Iniciación de Hockey sobre Patines, sentando las bases técnicas y formativas de nuevas generaciones.</p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section id="galeria" class="section galeria" aria-labelledby="galeria-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-kicker">Registro fotográfico</p>
+          <h2 id="galeria-title">Galería del proyecto</h2>
+          <p class="section-lead">Recorré el carrusel y tocá una imagen para verla en grande.</p>
+        </header>
+        <div class="galeria-filtros" id="galeriaFiltros" role="group" aria-label="Filtrar imágenes por sede o encuentro"></div>
+        <p class="galeria-estado" id="galeriaEstado" role="status" aria-live="polite"></p>
+        <div class="carrusel">
+          <div
+            class="carrusel-track"
+            id="galeriaGrid"
+            role="region"
+            aria-roledescription="carrusel"
+            aria-label="Imágenes de la galería"
+            tabindex="0"
+          ></div>
+
+          <div class="carrusel-controles">
+            <button class="carrusel-btn" id="galeriaPrev" type="button" aria-label="Imagen anterior" aria-controls="galeriaGrid">
+              <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false">
+                <path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </button>
+
+            <p class="carrusel-contador" id="galeriaContador" role="status" aria-live="polite">Cargando imágenes…</p>
+
+            <button class="carrusel-btn" id="galeriaNext" type="button" aria-label="Imagen siguiente" aria-controls="galeriaGrid">
+              <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false">
+                <path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <noscript>
+          <p class="gallery-error">La galería necesita JavaScript. Los registros fotográficos están disponibles en la carpeta <code>assets/img</code>.</p>
+        </noscript>
+      </div>
+    </section>
+
+    <section id="contacto" class="section contacto" aria-labelledby="contacto-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-kicker">Contacto</p>
+          <h2 id="contacto-title">Sumate al proyecto</h2>
+          <p class="section-lead">Escuelas, clubes, familias e instituciones interesadas en el Hockey sobre Patines en Santa Fe. Escribinos y te respondemos a la brevedad.</p>
+        </header>
+
+        <form class="contacto-form reveal" id="formContacto" action="#" method="post">
+          <div class="campo">
+            <label for="nombre">Nombre y apellido</label>
+            <input id="nombre" name="nombre" type="text" autocomplete="name" maxlength="80" required />
+          </div>
+
+          <div class="campo">
+            <label for="email">Correo electrónico</label>
+            <input id="email" name="email" type="email" autocomplete="email" maxlength="120" required />
+          </div>
+
+          <div class="campo campo--full">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="4" minlength="10" maxlength="1000" required></textarea>
+          </div>
+
+          <div class="campo-trampa" aria-hidden="true">
+            <label for="empresa">No completar este campo</label>
+            <input id="empresa" name="empresa" type="text" tabindex="-1" autocomplete="off" />
+          </div>
+
+          <div class="contacto-acciones">
+            <button class="btn-solido" type="submit">Enviar mensaje</button>
+            <p class="form-nota">Tus datos se usan únicamente para responder tu consulta.</p>
+          </div>
+
+          <p class="form-estado" id="contactoEstado" role="status" aria-live="polite"></p>
+        </form>
+
+        <noscript>
+          <p class="gallery-error">El formulario necesita JavaScript para enviarse. También podés escribir a la dirección de contacto del proyecto.</p>
+        </noscript>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p><strong>Hockey Santa Fe 2027</strong> — Proyecto de Desarrollo y Promoción del Hockey sobre Patines.</p>
+      <p class="footer-meta">Dirección técnica: Cristian Pochón · Santa Fe, Argentina · 2027</p>
+      <p class="footer-meta">
+        <a href="#proyecto">Proyecto</a> ·
+        <a href="#autor">Autor</a> ·
+        <a href="#sedes">Sedes</a> ·
+        <a href="#galeria">Galería</a> ·
+        <a href="#contacto">Escribinos</a>
+      </p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" type="button" aria-label="Volver arriba" hidden>
+    <span aria-hidden="true">↑</span>
+  </button>
+
+  <script src="assets/vendor/leaflet/leaflet.js" defer></script>
+  <script src="assets/js/app.js" defer></script>
+  <script src="assets/js/gallery.js" defer></script>
+  <script src="assets/js/animations.js" defer></script>
+  <script src="assets/js/mapa.js" defer></script>
+  <script src="assets/js/contacto.js" defer></script>
+  <script type="module" src="assets/js/lightbox.js"></script>
+</body>
+</html>

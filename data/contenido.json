@@ -1,0 +1,240 @@
+{
+  "sitio": {
+    "nombre": "Hockey Santa Fe 2027",
+    "titulo": "Hockey Santa Fe 2027 · Proyecto de Hockey sobre Patines",
+    "descripcion": "Proyecto 2027 de desarrollo y promoción del Hockey sobre Patines en Santa Fe: escuelas de iniciación, encuentros regionales y propuesta técnica del DT Cristian Pochón.",
+    "idioma": "es",
+    "autor": "Cristian Pochón",
+    "ciudad": "Santa Fe, Argentina",
+    "anio": 2027
+  },
+  "portada": {
+    "titulo": "Hockey sobre Patines",
+    "subtitulo": "Proyecto 2027",
+    "descripcion": "Desarrollo y promoción del hockey sobre patines en la ciudad de Santa Fe: escuelas de iniciación, encuentros regionales y una propuesta estratégica para 2027.",
+    "imagen": "assets/img/portada.jpg",
+    "video": "assets/video/hero.mp4"
+  },
+  "galeria": [
+    {
+      "capitulo": "Capítulo 1",
+      "grupo": "costanera",
+      "titulo": "Primera jornada en la Costanera",
+      "descripcion": "Ronda de presentación y primeras pruebas de patinaje en el playón costero, con familias y vecinos acompañando.",
+      "imagen": "assets/img/eventos/costanera-01.jpg",
+      "miniatura": "assets/img/eventos/thumbs/costanera-01.jpg",
+      "ancho": 932,
+      "alto": 516,
+      "alt": "Niños con patines y sticks sentados en rueda durante la jornada de promoción en la Costanera de Santa Fe"
+    },
+    {
+      "capitulo": "Capítulo 1",
+      "grupo": "costanera",
+      "titulo": "Práctica abierta en la Costanera",
+      "descripcion": "Conducción de bocha y postura de stick en una tarde de entrenamiento abierto junto al río.",
+      "imagen": "assets/img/eventos/costanera-02.jpg",
+      "miniatura": "assets/img/eventos/thumbs/costanera-02.jpg",
+      "ancho": 950,
+      "alto": 503,
+      "alt": "Grupo de niños patinando con sticks durante una práctica abierta en el playón de la Costanera"
+    },
+    {
+      "capitulo": "Capítulo 1",
+      "grupo": "costanera",
+      "titulo": "Actividad de iniciación en la Costanera",
+      "descripcion": "Niñas y niños se reúnen con el entrenador para compartir una actividad de hockey sobre patines.",
+      "imagen": "img/Costanera/c.jpg",
+      "ancho": 1032,
+      "alto": 581,
+      "alt": "Niñas y niños con patines y sticks junto a su entrenador en la cancha de la Costanera de Santa Fe"
+    },
+    {
+      "capitulo": "Capítulo 1",
+      "grupo": "costanera",
+      "titulo": "Práctica grupal en la Costanera",
+      "descripcion": "Un grupo de niñas y niños participa de una práctica en el playón deportivo.",
+      "imagen": "img/Costanera/d.jpg",
+      "ancho": 1032,
+      "alto": 581,
+      "alt": "Niñas y niños con patines y sticks reunidos en la cancha durante la práctica en la Costanera"
+    },
+    {
+      "capitulo": "Capítulo 1",
+      "grupo": "costanera",
+      "titulo": "Jornada de hockey en el playón costero",
+      "descripcion": "Práctica de hockey sobre patines con niñas, niños y entrenadores en la Costanera.",
+      "imagen": "img/Costanera/e.jpg",
+      "ancho": 1032,
+      "alto": 581,
+      "alt": "Grupo de niñas y niños practica hockey sobre patines en el playón de la Costanera de Santa Fe"
+    },
+    {
+      "capitulo": "Capítulo 1",
+      "grupo": "liverpool",
+      "titulo": "Escuela de Iniciación en el Club Liverpool",
+      "descripcion": "Registro de las actividades de hockey sobre patines en la primera sede institucional del proyecto.",
+      "imagen": "assets/img/eventos/liverpool-01.jpg",
+      "miniatura": "assets/img/eventos/thumbs/liverpool-01.jpg",
+      "ancho": 715,
+      "alto": 486,
+      "alt": "Actividad de hockey sobre patines en el Club Liverpool, Santa Fe"
+    },
+    {
+      "capitulo": "Capítulo 1",
+      "grupo": "liverpool",
+      "titulo": "Escuela de Iniciación en el Club Liverpool",
+      "descripcion": "Registro de las actividades de hockey sobre patines en la primera sede institucional del proyecto.",
+      "imagen": "assets/img/eventos/liverpool-02.jpg",
+      "miniatura": "assets/img/eventos/thumbs/liverpool-02.jpg",
+      "ancho": 997,
+      "alto": 501,
+      "alt": "Actividad de hockey sobre patines en el Club Liverpool, Santa Fe"
+    },
+    {
+      "capitulo": "Capítulo 1",
+      "grupo": "liverpool",
+      "titulo": "Escuela de Iniciación en el Club Liverpool",
+      "descripcion": "Registro de las actividades de hockey sobre patines en la primera sede institucional del proyecto.",
+      "imagen": "assets/img/eventos/liverpool-03.jpg",
+      "miniatura": "assets/img/eventos/thumbs/liverpool-03.jpg",
+      "ancho": 495,
+      "alto": 361,
+      "alt": "Actividad de hockey sobre patines en el Club Liverpool, Santa Fe"
+    },
+    {
+      "capitulo": "Capítulo 1",
+      "grupo": "liverpool",
+      "titulo": "Escuela de Iniciación en el Club Liverpool",
+      "descripcion": "Registro de las actividades de hockey sobre patines en la primera sede institucional del proyecto.",
+      "imagen": "assets/img/eventos/liverpool-04.jpg",
+      "miniatura": "assets/img/eventos/thumbs/liverpool-04.jpg",
+      "ancho": 484,
+      "alto": 369,
+      "alt": "Actividad de hockey sobre patines en el Club Liverpool, Santa Fe"
+    },
+    {
+      "capitulo": "Capítulo 2",
+      "grupo": "progreso",
+      "titulo": "Escuela de Iniciación en Unión y Progreso",
+      "descripcion": "Registro de las actividades de iniciación deportiva en el Club Unión y Progreso.",
+      "imagen": "assets/img/eventos/union-progreso-01.jpg",
+      "miniatura": "assets/img/eventos/thumbs/union-progreso-01.jpg",
+      "ancho": 761,
+      "alto": 563,
+      "alt": "Actividad de hockey sobre patines en la Escuela de Unión y Progreso"
+    },
+    {
+      "capitulo": "Capítulo 3",
+      "grupo": "parana",
+      "titulo": "Encuentro regional en Paraná",
+      "descripcion": "Registro fotográfico del intercambio entre escuelas de hockey sobre patines de la región.",
+      "imagen": "assets/img/eventos/encuentro-regional-01.jpg",
+      "miniatura": "assets/img/eventos/thumbs/encuentro-regional-01.jpg",
+      "ancho": 1001,
+      "alto": 563,
+      "alt": "Encuentro regional de hockey sobre patines"
+    },
+    {
+      "capitulo": "Capítulo 3",
+      "grupo": "parana",
+      "titulo": "Encuentro regional en Paraná",
+      "descripcion": "Registro fotográfico del intercambio entre escuelas de hockey sobre patines de la región.",
+      "imagen": "assets/img/eventos/encuentro-regional-02.jpg",
+      "miniatura": "assets/img/eventos/thumbs/encuentro-regional-02.jpg",
+      "ancho": 968,
+      "alto": 491,
+      "alt": "Encuentro regional de hockey sobre patines"
+    },
+    {
+      "capitulo": "Capítulo 3",
+      "grupo": "parana",
+      "titulo": "Encuentro regional en Paraná",
+      "descripcion": "Registro fotográfico del intercambio entre escuelas de hockey sobre patines de la región.",
+      "imagen": "assets/img/eventos/encuentro-regional-03.jpg",
+      "miniatura": "assets/img/eventos/thumbs/encuentro-regional-03.jpg",
+      "ancho": 936,
+      "alto": 585,
+      "alt": "Encuentro regional de hockey sobre patines"
+    },
+    {
+      "capitulo": "Capítulo 3",
+      "grupo": "regional",
+      "titulo": "Intercambio en Rosario",
+      "descripcion": "Registro del intercambio deportivo que integra a Rosario con las escuelas de la región.",
+      "imagen": "assets/img/eventos/rosario-01.jpg",
+      "miniatura": "assets/img/eventos/thumbs/rosario-01.jpg",
+      "ancho": 1061,
+      "alto": 316,
+      "alt": "Intercambio regional de hockey sobre patines en Rosario"
+    },
+    {
+      "capitulo": "Capítulo 3",
+      "grupo": "regional",
+      "titulo": "Intercambio en Rosario",
+      "descripcion": "Registro del intercambio deportivo que integra a Rosario con las escuelas de la región.",
+      "imagen": "assets/img/eventos/rosario-02.jpg",
+      "miniatura": "assets/img/eventos/thumbs/rosario-02.jpg",
+      "ancho": 1081,
+      "alto": 608,
+      "alt": "Intercambio regional de hockey sobre patines en Rosario"
+    }
+  ],
+  "sedes": [
+    {
+      "nombre": "Costanera de Santa Fe",
+      "tipo": "Promoción",
+      "capitulo": "Capítulo 1",
+      "descripcion": "Playón deportivo donde comenzaron las jornadas de exhibición y pruebas abiertas.",
+      "lat": -31.6329,
+      "lng": -60.7021
+    },
+    {
+      "nombre": "Club Liverpool",
+      "tipo": "Sede institucional",
+      "capitulo": "Capítulo 1",
+      "descripcion": "Primera sede fija: núcleo estable de alumnos infantiles.",
+      "lat": -31.6247,
+      "lng": -60.7139
+    },
+    {
+      "nombre": "Club Unión y Progreso",
+      "tipo": "Escuela de iniciación",
+      "capitulo": "Capítulo 2",
+      "descripcion": "Sede de la Escuela de Iniciación Deportiva en Santa Fe.",
+      "lat": -31.6398,
+      "lng": -60.7215
+    },
+    {
+      "nombre": "Paraná",
+      "tipo": "1º Encuentro de Escuelas",
+      "capitulo": "Capítulo 3",
+      "descripcion": "Encuentro entre escuelas de ambas orillas del Río Paraná.",
+      "lat": -31.7413,
+      "lng": -60.5174
+    },
+    {
+      "nombre": "Rosario",
+      "tipo": "Intercambio regional",
+      "capitulo": "Capítulo 3",
+      "descripcion": "Nodo de la triangulación regional junto a Santa Fe y San Nicolás.",
+      "lat": -32.9468,
+      "lng": -60.6393
+    },
+    {
+      "nombre": "San Nicolás",
+      "tipo": "Intercambio regional",
+      "capitulo": "Capítulo 3",
+      "descripcion": "Tercer vértice del circuito regional de encuentros.",
+      "lat": -33.3336,
+      "lng": -60.2265
+    }
+  ],
+  "contacto": {
+    "direccionTecnica": "Cristian Pochón",
+    "rol": "DT — Hockey sobre Patines",
+    "ambito": "Ciudad de Santa Fe, Argentina",
+    "email": "cpochon@gmail.com",
+    "endpoint": "",
+    "asunto": "Consulta desde el sitio — Hockey Santa Fe 2027"
+  }
+}

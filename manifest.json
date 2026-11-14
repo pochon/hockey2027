@@ -1,0 +1,27 @@
+{
+  "name": "Hockey Santa Fe 2027 — Proyecto de Hockey sobre Patines",
+  "short_name": "Hockey SF 2027",
+  "description": "Proyecto 2027 de desarrollo y promoción del Hockey sobre Patines en Santa Fe: escuelas de iniciación, encuentros regionales y propuesta técnica del DT Cristian Pochón.",
+  "lang": "es-AR",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0b1f3a",
+  "theme_color": "#0b1f3a",
+  "categories": ["sports", "education"],
+  "icons": [
+    {
+      "src": "assets/img/logo-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/img/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
